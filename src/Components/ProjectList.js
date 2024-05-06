@@ -89,7 +89,7 @@ const ProjectList = () => {
         My Projects
         <img
           src="/butt.png"
-          alt="Button"
+          alt="butt"
           style={{ width: "20%", marginLeft: "0px", marginBottom: "80px" }}
         />
       </h1>

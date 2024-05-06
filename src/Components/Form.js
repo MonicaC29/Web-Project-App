@@ -82,7 +82,9 @@ const Form = ({ project, addProject, onSubmit }) => {
           onChange={handleChange}
         />
       </label>
-      <button type="submit"> {project ? "Update" : "Add"}</button>
+      <div style={{ textAlign: "center", marginTop: "20px" }}>
+        <button type="submit"> {project ? "Update" : "Add"}</button>
+      </div>
     </form>
   );
 };
