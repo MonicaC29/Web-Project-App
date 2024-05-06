@@ -1,0 +1,121 @@
+/*Set the background color of the entire page*/
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/*Form Styles*/
+form {
+  /*Add space below the form*/
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  /*Added space below each label*/
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  /*Made input and textarea elements 100% width*/
+  width: 100%;
+  padding: 8px;
+  /*Added space below each input and textarea*/
+  margin-bottom: 12px;
+}
+
+/*Button Styles*/
+button {
+  /*Set the background color of buttons*/
+  background-color: rgb(201, 88, 165);
+  /*Set the text color of buttons*/
+  color: rgb(248, 247, 247);
+  padding: 10px;
+  cursor: pointer;
+  border: solid 1px #716e6e;
+  /*Added border-radius for a circular appearance*/
+  border-radius: 5px;
+  /*Add space below buttons*/
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 5px rgba(225, 29, 150, 0.2);
+  width: 60px;
+  height: 40px;
+}
+
+button:hover {
+  /*Changed background color on hover */
+  background-color: rgb(251, 3, 205);
+}
+
+/*Header Styles*/
+h1 {
+  /*Set font family for h1*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /*Set text color for h1*/
+  color: rgb(201, 88, 165);
+}
+
+/*Project Item Styles*/
+.project-item {
+  color: #060000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-item button {
+  /*Added space to the right of buttons*/
+  margin-right: 10px;
+  /*Added space below buttons*/
+  margin-bottom: 30px;
+  /*Added space above buttons*/
+  margin-top: 30px;
+  /*Set the background color of buttons within project items*/
+  background-color: rgb(201, 88, 165);
+}
+
+.project-item button:hover {
+  /*Changed background color on hover*/
+  background-color: rgb(251, 3, 205);
+}
+
+/*App Container Styles*/
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 20px;
+  background-color: rgb(156, 69, 114);
+  /*Added a solid black border*/
+  border: solid 6px rgb(193, 182, 182);
+  /*Set the background color of the container*/
+  background-color: rgb(156, 69, 114);
+  border-radius: 15px;
+}
+
+/*Item Container styles*/
+.item-container {
+  /*Added a 2px solid black border around item containers */
+  border: 2px rgb(106, 9, 70) solid;
+  text-align: center;
+  /*Added margin around item containers*/
+  margin: 25px;
+  flex: 1;
+}
+
+.item-container:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Media queries to make the layout more responsive */
+@media only screen and (max-width: 800px) {
+  .app-container {
+    margin: 10px;
+    padding: 10px;
+  }
+}
